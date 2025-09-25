@@ -25,7 +25,7 @@
     </dependencies>
 
     <build>
-        <finalName>timecal</finalName>
+        <finalName>temperatureconverter</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -76,7 +76,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>TimeCal</mainClass>
+                            <mainClass>TemperatureConverter</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

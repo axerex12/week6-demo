@@ -20,4 +20,17 @@ public class TemperatureConverter {
         }
         return false;
     }
+
+
+    public static void main(String[] args) {
+        System.out.println("Temperature Converter");
+        System.out.println("Fahrenheit to Celsius: " + fahrenheitToCelsius(100));
+        System.out.println("Celsius to Fahrenheit: " + celciusToFahrenheit(37));
+        System.out.println("Kelvin to Celsius: " + kelvinToCelsius(300));
+        System.out.println("Is -50 an extreme temperature? " + isExtremeTemp(-50));
+        System.out.println("Is 20 an extreme temperature? " + isExtremeTemp(20));
+        
+    }
+
 }
+
