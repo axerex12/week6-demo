@@ -76,7 +76,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>TemperatureConverter</mainClass>
+                            <mainClass>temperatureconverter</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
