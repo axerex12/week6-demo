@@ -6,7 +6,7 @@ pipeline{
     stages{
         stage('checking'){
             steps{
-                git branch:'master', url:'https://github.com/axerex12/week6-demo.git'
+                git branch:'main', url:'https://github.com/axerex12/week6-demo.git'
             }
         }
 
