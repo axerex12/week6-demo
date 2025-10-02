@@ -13,9 +13,9 @@ public class temperatureTest extends TestCase {
     
     @Test
     public void testCelsiusToFahrenheit() {
-        assertEquals(212.0, TemperatureConverter.celciusToFahrenheit(100));
-        assertEquals(-40.0, TemperatureConverter.celciusToFahrenheit(-40));
-        assertEquals(32.0, TemperatureConverter.celciusToFahrenheit(0));
+        assertEquals(212.0, TemperatureConverter.celsiusToFahrenheit(100));
+        assertEquals(-40.0, TemperatureConverter.celsiusToFahrenheit(-40));
+        assertEquals(32.0, TemperatureConverter.celsiusToFahrenheit(0));
     }
 
     @Test
