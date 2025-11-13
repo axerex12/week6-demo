@@ -18,8 +18,7 @@ public class TemperatureConverter extends Application {
                 "Celsius to Fahrenheit",
                 "Fahrenheit to Celsius",
                 "Kelvin to Celsius",
-                "Celsius to Kelvin"
-        );
+                "Celsius to Kelvin");
         conversionBox.setValue("Celsius to Fahrenheit"); // default
 
         Button convertButton = new Button("Convert");

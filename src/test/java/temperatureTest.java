@@ -1,5 +1,6 @@
 import junit.framework.TestCase;
 import org.junit.Test;
+
 public class temperatureTest extends TestCase {
 
     @Test
@@ -10,7 +11,6 @@ public class temperatureTest extends TestCase {
         assertFalse(TemperatureConverter.isExtremeTemp(-10));
     }
 
-    
     @Test
     public void testCelsiusToFahrenheit() {
         assertEquals(212.0, TemperatureConverter.celsiusToFahrenheit(100));
@@ -32,4 +32,3 @@ public class temperatureTest extends TestCase {
         assertEquals(-273.15, TemperatureConverter.kelvinToCelsius(0), 0.01);
     }
 }
-
